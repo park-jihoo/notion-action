@@ -39,7 +39,7 @@ async function run() {
             const timeDiff = currentTime - editedTime;
             const timeDiffInHours = timeDiff / (1000 * 3600);
             if (timeDiffInHours > 24) {
-                return;
+                return {fileName: "", pageProperties: {}}; // return empty object
             }
 
             const pageProperties = await retrievePageProperties(page.id);
@@ -53,12 +53,6 @@ async function run() {
         // Wait for all pages to be processed and files to be written
         const results = await Promise.all(pagePromises);
 
-        // if no pages were edited, exit
-        if (results.length === 0) {
-            core.info("No pages were edited in the last 24 hours");
-            return;
-        }
-
         // Commit all files to GitHub
         const token = core.getInput("GITHUB_TOKEN");
         const octokit = github.getOctokit(token);
@@ -69,13 +63,18 @@ async function run() {
             owner: github.context.repo.owner,
             repo: github.context.repo.repo,
             base_tree: github.context.sha,
-            tree: results.map((result) => ({
+            tree: results.filter((result) => result.fileName !== "")
+                .map((result) => ({
                 path: "content/"+encodeURIComponent(result.fileName),
                 mode: "100644",
                 type: "blob",
                 content: JSON.stringify(result.pageProperties),
             })),
         }).then(async (tree) => {
+            // if empty tree, exit
+            if (tree.data.tree.length === 0) {
+                return;
+            }
             await octokit.rest.git.createCommit({
                 owner: github.context.repo.owner,
                 repo: github.context.repo.repo,
