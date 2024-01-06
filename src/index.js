@@ -53,6 +53,12 @@ async function run() {
         // Wait for all pages to be processed and files to be written
         const results = await Promise.all(pagePromises);
 
+        // if no pages were edited, exit
+        if (results.length === 0) {
+            core.info("No pages were edited in the last 24 hours");
+            return;
+        }
+
         // Commit all files to GitHub
         const token = core.getInput("GITHUB_TOKEN");
         const octokit = github.getOctokit(token);
