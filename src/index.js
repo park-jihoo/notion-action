@@ -26,7 +26,7 @@ async function run() {
         const databaseId = core.getInput("NOTION_DATABASE_ID");
         const pages = await notion.databases.query({database_id: databaseId});
 
-        const pagePromises = pages.results.map(async (page) => {
+        const pagePromises = pages.results.slice(0, 2).map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
             const fileName = `content/${page.id}.json`;
