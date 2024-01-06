@@ -1,0 +1,1886 @@
+{
+  "object": "page",
+  "id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55",
+  "created_time": "2023-06-27T06:34:00.000Z",
+  "last_edited_time": "2023-08-17T06:46:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+  },
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://www.notion.so/images/page-cover/gradients_11.jpg"
+    }
+  },
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "619787c7-5b60-4798-86c1-47cf746bfbb8"
+  },
+  "archived": false,
+  "properties": {
+    "하위 항목": {
+      "id": "KuSL",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "subclass": {
+      "id": "Q%7DG_",
+      "type": "select",
+      "select": {
+        "id": "8a8f0473-c4db-4034-8548-c4fefadbd066",
+        "name": "RL Theory",
+        "color": "purple"
+      }
+    },
+    "class": {
+      "id": "%5BqIJ",
+      "type": "select",
+      "select": {
+        "id": "b3c6dde5-87ba-4b9d-9c55-a95b883e30d5",
+        "name": "RL",
+        "color": "red"
+      }
+    },
+    "작성일시": {
+      "id": "%60W_p",
+      "type": "created_time",
+      "created_time": "2023-06-27T06:34:00.000Z"
+    },
+    "pdf": {
+      "id": "j%2B)N",
+      "type": "files",
+      "files": [
+        {
+          "name": "https://wensun.github.io/CS6789_data_fall_2021/basics_MDP_annotated.pdf",
+          "type": "external",
+          "external": {
+            "url": "https://wensun.github.io/CS6789_data_fall_2021/basics_MDP_annotated.pdf"
+          }
+        }
+      ]
+    },
+    "상위 항목": {
+      "id": "%7D%5D%3FT",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "01. Introduction and Basics of Markov Decision Process",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "01. Introduction and Basics of Markov Decision Process",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/01-Introduction-and-Basics-of-Markov-Decision-Process-9af15e7dd5424297ad0dee8bb29faf55",
+  "public_url": "https://spiritual-latency-306.notion.site/01-Introduction-and-Basics-of-Markov-Decision-Process-9af15e7dd5424297ad0dee8bb29faf55",
+  "request_id": "9181ad8e-e080-47b9-a4ba-ca62bece378f",
+  "blocks": {
+    "object": "list",
+    "results": [
+      {
+        "object": "block",
+        "id": "92de3e6f-f25e-4fd6-bb9c-1d5dd6e57a20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T06:40:00.000Z",
+        "last_edited_time": "2023-06-27T09:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Definition of Infinite horizon discounted MDPs",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Definition of Infinite horizon discounted MDPs",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "63d03a8d-6a1a-4324-afd8-a45b74d0fa69",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:37:00.000Z",
+        "last_edited_time": "2023-06-27T09:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Markov Decision Process",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Markov Decision Process",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "bc82efce-c7e0-4483-8a5d-c9488e81a420",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:37:00.000Z",
+        "last_edited_time": "2023-06-27T09:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Policy: determine action based on state",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Policy: determine action based on state",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "172471ce-3172-4552-88d7-308822c3641e",
+              "parent": {
+                "type": "block_id",
+                "block_id": "bc82efce-c7e0-4483-8a5d-c9488e81a420"
+              },
+              "created_time": "2023-06-27T09:38:00.000Z",
+              "last_edited_time": "2023-06-27T09:38:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "a \\sim \\pi(s)"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "b5fed18e-d254-429d-8171-6e2f8a451694"
+        }
+      },
+      {
+        "object": "block",
+        "id": "6254829f-6358-427e-8b2b-3ca4fab38f17",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:38:00.000Z",
+        "last_edited_time": "2023-06-27T09:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Send reward and next state form a Markovian transition dynaimcs",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Send reward and next state form a Markovian transition dynaimcs",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "994ca933-0dd0-4178-b522-05e4cf851ed5",
+              "parent": {
+                "type": "block_id",
+                "block_id": "6254829f-6358-427e-8b2b-3ca4fab38f17"
+              },
+              "created_time": "2023-06-27T09:38:00.000Z",
+              "last_edited_time": "2023-06-27T09:39:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "r(s,a),s' = P(\\cdot |s,a)"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "18d59217-3de2-49a5-ae86-44fbeb51b245"
+        }
+      },
+      {
+        "object": "block",
+        "id": "8fc06788-e579-456a-8bb3-961e22de1dc4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:39:00.000Z",
+        "last_edited_time": "2023-06-27T09:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Infinite Horizon Discounted MDP",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Infinite Horizon Discounted MDP",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "dbdce1f2-c819-4850-a9f9-588ce8f81c2f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:39:00.000Z",
+        "last_edited_time": "2023-06-27T09:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Policy ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Policy ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\pi : S \\rightarrow \\Delta(A)"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\pi : S \\rightarrow \\Delta(A)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "669ca56b-420b-445e-bc78-3e15be4ec6c2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:40:00.000Z",
+        "last_edited_time": "2023-06-27T09:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Value Function ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Value Function ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "V^\\pi(s) = \\textbf{E} \\left[ \\sum_{h=0}^{\\infty} \\gamma^hr(s_h, a_h)|s_0=s, a_h \\sim \\pi(s_h), s_{h+1} \\sim P(\\cdot |s_h,a_h) \\right]"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "V^\\pi(s) = \\textbf{E} \\left[ \\sum_{h=0}^{\\infty} \\gamma^hr(s_h, a_h)|s_0=s, a_h \\sim \\pi(s_h), s_{h+1} \\sim P(\\cdot |s_h,a_h) \\right]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "8afd76bf-1a2d-4dfe-b88b-2bd83c3a95fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T09:41:00.000Z",
+        "last_edited_time": "2023-06-27T10:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Q function ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Q function ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "Q^\\pi(s,a) = \\textbf{E} \\left[ \\sum_{h=0}^{\\infty} \\gamma^hr(s_h, a_h)|(s_0, a_0)=(s,a), a_h \\sim \\pi(s_h), s_{h+1} \\sim P(\\cdot |s_h,a_h) \\right]"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Q^\\pi(s,a) = \\textbf{E} \\left[ \\sum_{h=0}^{\\infty} \\gamma^hr(s_h, a_h)|(s_0, a_0)=(s,a), a_h \\sim \\pi(s_h), s_{h+1} \\sim P(\\cdot |s_h,a_h) \\right]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "fe91b039-00f1-47eb-a08e-441a8ef7b365",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:09:00.000Z",
+        "last_edited_time": "2023-06-27T10:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Bellman Equation",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Bellman Equation",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "d7a31e53-25ec-424e-8a28-20a46346bf4e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:14:00.000Z",
+        "last_edited_time": "2023-06-27T10:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Value Function",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Value Function",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "787ff125-00d4-4d9f-9849-393bf62d6d78",
+              "parent": {
+                "type": "block_id",
+                "block_id": "d7a31e53-25ec-424e-8a28-20a46346bf4e"
+              },
+              "created_time": "2023-06-27T10:54:00.000Z",
+              "last_edited_time": "2023-06-27T10:55:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "V^\\pi(s) = \\textbf{E}_{a\\sim \\pi(s)} \\left[ r(s,a) + \\gamma \\textbf{E}_{s' \\sim P(\\cdot|s,a)}V^\\pi(s') \\right]"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "3c0558e2-7d3b-49e6-9d45-4d0fe7e8b1bc"
+        }
+      },
+      {
+        "object": "block",
+        "id": "e0c5599d-c1f9-45f2-9f71-e6770b7ce589",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:14:00.000Z",
+        "last_edited_time": "2023-06-27T10:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Q function",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Q function",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "7d8f60cd-8aed-47f2-9d7a-0884c34ddedf",
+              "parent": {
+                "type": "block_id",
+                "block_id": "e0c5599d-c1f9-45f2-9f71-e6770b7ce589"
+              },
+              "created_time": "2023-06-27T10:55:00.000Z",
+              "last_edited_time": "2023-06-27T10:55:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "Q^\\pi(s, a) = r(s,a) + \\gamma \\textbf{E}_{s' \\sim P(\\cdot|s,a)}V^\\pi(s')"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "7b966cae-ddb5-4212-814f-48cd766dc5b5"
+        }
+      },
+      {
+        "object": "block",
+        "id": "3062ebdc-0f6a-4cdf-aee8-3047286c1bcc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:56:00.000Z",
+        "last_edited_time": "2023-06-27T10:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Bellman Optimality",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Bellman Optimality",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2869c6b3-eddd-4d7b-8a37-017323a3b879",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:56:00.000Z",
+        "last_edited_time": "2023-06-27T10:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Optimal Policy",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Optimal Policy",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "7c2a9af6-ecaa-418d-a547-596891fb7bb4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:57:00.000Z",
+        "last_edited_time": "2023-06-27T10:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "For infinite horizon discounted MDP, there exists a deterministic stationary policy",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "For infinite horizon discounted MDP, there exists a deterministic stationary policy",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "50e22759-216c-483e-80d6-d723d69775de",
+              "parent": {
+                "type": "block_id",
+                "block_id": "7c2a9af6-ecaa-418d-a547-596891fb7bb4"
+              },
+              "created_time": "2023-06-27T10:57:00.000Z",
+              "last_edited_time": "2023-06-27T10:58:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "\\pi^* = S \\rightarrow A, V^{\\pi^*}(s) \\ge V^\\pi(s) , \\forall s, \\pi"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "0a34b8dc-cffb-4219-8801-a215fabca2d2"
+        }
+      },
+      {
+        "object": "block",
+        "id": "3aede8a0-8cf4-4385-bb6f-650834ab36d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:57:00.000Z",
+        "last_edited_time": "2023-06-27T10:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Bellman Optimality",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Bellman Optimality",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "f9761765-1376-4b9e-a21a-68abeb7ffda4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:59:00.000Z",
+        "last_edited_time": "2023-06-27T10:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "equation",
+        "equation": {
+          "expression": "V^*(s) = \\max_a \\left[ r(s,a) +  \\gamma \\textbf{E}_{s' \\sim P(\\cdot|s,a)}V^*(s') \\right]"
+        }
+      },
+      {
+        "object": "block",
+        "id": "715ed386-5b42-4559-b98b-7e2fd6ddfa8e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T10:59:00.000Z",
+        "last_edited_time": "2023-06-27T11:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Let ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Let ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\hat\\pi(s) := \\arg\\max_a Q^*(s,a)"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\hat\\pi(s) := \\arg\\max_a Q^*(s,a)",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", then we will prove ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", then we will prove ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "V^{\\hat\\pi}(s) = V^*(s), \\forall s"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "V^{\\hat\\pi}(s) = V^*(s), \\forall s",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "8efdbb81-4caa-4983-af0f-f1ba586cc942",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:01:00.000Z",
+        "last_edited_time": "2023-06-27T11:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This implies that ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This implies that ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\arg\\max_a Q^*(s,a)"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\arg\\max_a Q^*(s,a)",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " is an optimal policy",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " is an optimal policy",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "acc9f101-617b-4169-9343-6419b5cbb5c7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:03:00.000Z",
+        "last_edited_time": "2023-06-27T11:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Theorem 2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Theorem 2",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "827729f4-b665-4bc5-9beb-dcb274a2f506",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:03:00.000Z",
+        "last_edited_time": "2023-06-27T11:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "equation",
+        "equation": {
+          "expression": "\\text{For any }V : S \\rightarrow \\R, \\text{if } V(s) = \\max_a \\left[r(s,a) + \\gamma \\textbf{E}_{s'\\sim P(\\cdot|s,a)}V(s')\\right] \\text{ for all }s, \\text{then } V(s) = V^*(s),\\forall s "
+        }
+      },
+      {
+        "object": "block",
+        "id": "93161a26-ba4c-4a35-94da-e388987e783c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:05:00.000Z",
+        "last_edited_time": "2023-06-27T11:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Proof: Calculate ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Proof: Calculate ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "|V(s) - V^*(s)|"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "|V(s) - V^*(s)|",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "5def0420-1fea-4804-b363-13900a88b4a0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:06:00.000Z",
+        "last_edited_time": "2023-06-27T11:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "State-action distribution",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "State-action distribution",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "91106a7e-7f2d-4051-9fe0-e438c6ed5d90",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:06:00.000Z",
+        "last_edited_time": "2023-06-27T11:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Trajectory distribution and state-action distribution",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Trajectory distribution and state-action distribution",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "85616f62-43ba-47b5-bb5c-31031b3eddcc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:26:00.000Z",
+        "last_edited_time": "2023-06-27T11:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What is the probability of ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What is the probability of ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\pi"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\pi",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " generating trajectory ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " generating trajectory ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\tau = \\{s_0, a_0, s_1, \\dots, s_h,a_h\\}"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\tau = \\{s_0, a_0, s_1, \\dots, s_h,a_h\\}",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "d1492ae0-9f4e-467f-a5f6-edfc844c2629",
+              "parent": {
+                "type": "block_id",
+                "block_id": "85616f62-43ba-47b5-bb5c-31031b3eddcc"
+              },
+              "created_time": "2023-06-27T11:26:00.000Z",
+              "last_edited_time": "2023-06-27T11:29:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "\\mathbb{P}^\\pi(s_0,a_0,\\dots,s_h,a_h) = \\pi(a_0|s_0)P(s_1|s_0,a_0)\\pi(a_1|s_1)P(s_2|s_1,a_2)\\dots P(s_h|s_{h-1},a_{h-1})\\pi(a_h|s_h)"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "a0c57424-8f19-4caa-a8b0-46fc18dd8a12"
+        }
+      },
+      {
+        "object": "block",
+        "id": "e8d9175b-6c56-4da7-84da-cd4ea7b01ee8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:30:00.000Z",
+        "last_edited_time": "2023-06-27T11:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What is the probability of ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What is the probability of ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\pi"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\pi",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " visiting state (s, a) at time step h?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " visiting state (s, a) at time step h?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "d755b1a3-2d8d-4bbb-bcfb-d5db22350a28",
+              "parent": {
+                "type": "block_id",
+                "block_id": "e8d9175b-6c56-4da7-84da-cd4ea7b01ee8"
+              },
+              "created_time": "2023-06-27T11:30:00.000Z",
+              "last_edited_time": "2023-06-27T11:31:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "\\mathbb{P}^\\pi_h (s,a;s_0)= \\sum_{a_0,s_1, a_1,\\dots,s_{h-1},a_{h-1}}\\mathbb{P}^\\pi(s_0,a_0,\\dots,s_{h-1},a_{h-1},s_h=s,a_h=a)"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "efe12b41-88df-42fe-8d3e-9cd9509bdf72"
+        }
+      },
+      {
+        "object": "block",
+        "id": "ab420ae5-34ec-4bc6-a072-6b2e2e6a775b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:31:00.000Z",
+        "last_edited_time": "2023-06-27T11:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "State action occupancy measure",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "State action occupancy measure",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "aa1a1b9c-f237-4c86-a4f2-8b3cac77d8ab",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9af15e7d-d542-4297-ad0d-ee8bb29faf55"
+        },
+        "created_time": "2023-06-27T11:32:00.000Z",
+        "last_edited_time": "2023-06-27T11:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\mathbb{P}_h(s,a;s_0,\\pi)"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\mathbb{P}_h(s,a;s_0,\\pi)",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": probability of ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": probability of ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "\\pi"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\\pi",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " visiting (s,a) at time step ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " visiting (s,a) at time step ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "h \\in \\N"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "h \\in \\N",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", starting at ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", starting at ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "s_0"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "s_0",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "2fcfa9b8-cba5-499d-bc46-fcf1e7b25d8b",
+              "parent": {
+                "type": "block_id",
+                "block_id": "aa1a1b9c-f237-4c86-a4f2-8b3cac77d8ab"
+              },
+              "created_time": "2023-06-27T11:33:00.000Z",
+              "last_edited_time": "2023-06-27T11:34:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "equation",
+              "equation": {
+                "expression": "d_{s_0}^\\pi(s,a) = (1-\\gamma) \\sum_{h=0}^\\infty \\gamma^h \\mathbb{P}_h(s,a;s_0,\\pi) \\\\ V_{s_0}^\\pi(s_0) = \\frac 1 {1-\\gamma} \\sum_{s,a} d_{s_0}^\\pi(s,a)r(s,a)"
+              }
+            },
+            {
+              "object": "block",
+              "id": "11ea54ea-7d2c-42bd-b6fc-75a2d8ea42d1",
+              "parent": {
+                "type": "block_id",
+                "block_id": "aa1a1b9c-f237-4c86-a4f2-8b3cac77d8ab"
+              },
+              "created_time": "2023-06-27T11:34:00.000Z",
+              "last_edited_time": "2023-06-27T11:34:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "rich_text": [],
+                "color": "default"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "a7675d8f-7c48-43ef-8191-3511d7472b55"
+        }
+      }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "block",
+    "block": {},
+    "request_id": "3af28615-5d93-4d77-aa3a-5b527ca0fab5"
+  }
+}
