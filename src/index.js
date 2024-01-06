@@ -47,7 +47,7 @@ async function run() {
         const file = "notion.json";
         const content = Buffer.from(JSON.stringify(results, null, 2)).toString("base64");
         const message = "Update notion.json";
-        const branch = "master";
+        const branch = "main";
         const octokit = github.getOctokit(myToken);
 
         const response = await octokit.repos.createOrUpdateFileContents({
