@@ -39,7 +39,26 @@ async function run() {
             results.push(pageProperties);
         }
         writeFileSync("notion.json", JSON.stringify(results, null, 2));
-        core.setOutput("results", JSON.stringify(results, null, 2));
+        // push notion.json
+        const myToken = core.getInput("GITHUB_TOKEN");
+        const {owner, repo} = github.context.repo;
+        const {sha} = github.context;
+        const file = "notion.json";
+        const content = Buffer.from(JSON.stringify(results, null, 2)).toString("base64");
+        const message = "Update notion.json";
+        const branch = "master";
+        const octokit = github.getOctokit(myToken);
+        // commit and push
+        const response = await octokit.repos.createOrUpdateFileContents({
+            owner,
+            repo,
+            path: file,
+            message,
+            content,
+            sha,
+            branch,
+        });
+
     } catch (error) {
         core.setFailed(error.message);
     }
