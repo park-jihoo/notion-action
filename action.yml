@@ -7,7 +7,7 @@ inputs:
   notion_database_id:
     description: "Notion database id"
     required: true
-  github-token:
+  github_token:
     description: "Github token"
     required: true
 
