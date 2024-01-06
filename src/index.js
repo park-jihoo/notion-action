@@ -32,11 +32,21 @@ async function run() {
         }
 
         const pagePromises = pages.results.map(async (page) => {
+            // retrieve edited pages
+            // get pages which have been edited in the last 24 hours
+            const editedTime = new Date(page.last_edited_time);
+            const currentTime = new Date();
+            const timeDiff = currentTime - editedTime;
+            const timeDiffInHours = timeDiff / (1000 * 3600);
+            if (timeDiffInHours > 24) {
+                return;
+            }
+
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
             const fileName = `${page.id}.json`;
             writeFileSync(fileName, JSON.stringify(pageProperties, null, 2));
-            core.info(`Wrote ${fileName.split("/")[1]}`);
+            core.info(`Wrote ${fileName}`);
             return {fileName, pageProperties};
         });
 
