@@ -29,7 +29,7 @@ async function run() {
         const pagePromises = pages.results.slice(0, 2).map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
-            const fileName = `content/${page.id}.json`;
+            const fileName = `./content/${page.id}.json`;
             writeFileSync(fileName, JSON.stringify(pageProperties, null, 2));
             core.info(`Wrote ${fileName.split("/")[1]}`);
             return {fileName, pageProperties};
