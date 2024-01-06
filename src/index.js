@@ -56,36 +56,35 @@ async function run() {
                 owner,
                 repo,
                 path: file
+            }).then((response) => {
+                if (response.status === 200) {
+                    octokit.rest.repos.createOrUpdateFileContents({
+                        owner,
+                        repo,
+                        path: file,
+                        message,
+                        content,
+                        branch,
+                        sha: response.data.sha,
+                    });
+                }
+
+                core.info(`Response: ${response.status}`);
             }).catch((error) => {
-                console.log(error)
+                // create new file
+                if (error.status === 404) {
+                    core.info(`Error: ${error.status}`);
+                    core.info(`Creating new file: ${file}`);
+                    octokit.rest.repos.createOrUpdateFileContents({
+                        owner,
+                        repo,
+                        path: file,
+                        message,
+                        content,
+                        branch,
+                    });
+                }
             });
-
-            core.info(`Response: ${response.status}`);
-
-            // Update file if it already exists
-            if (response.status === 200) {
-                await octokit.rest.repos.createOrUpdateFileContents({
-                    owner,
-                    repo,
-                    path: file,
-                    message,
-                    content,
-                    branch,
-                    sha: response.data.sha,
-                });
-            }
-
-            // Create file if it doesn't exist
-            else if (response.status === 404) {
-                await octokit.rest.repos.createOrUpdateFileContents({
-                    owner,
-                    repo,
-                    path: file,
-                    message,
-                    content,
-                    branch,
-                });
-            }
         });
 
         // Wait for all commits to be completed
