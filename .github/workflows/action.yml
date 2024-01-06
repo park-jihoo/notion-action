@@ -21,6 +21,6 @@ jobs:
         with:
           notion_token: ${{secrets.NOTION_TOKEN}}
           notion_database_id: ${{secrets.NOTION_DATABASE_ID}}
-          github-token: ${{github.token}}
+          github-token: ${{secrets.GITHUB_TOKEN}}
           
             
