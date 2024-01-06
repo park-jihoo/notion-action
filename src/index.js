@@ -1,4 +1,4 @@
-const {writeFileSync} = require("fs");
+const {writeFileSync, mkdirSync, existsSync} = require("fs");
 const {Client} = require("@notionhq/client");
 const core = require("@actions/core");
 const github = require("@actions/github");
@@ -25,6 +25,11 @@ async function run() {
 
         const databaseId = core.getInput("NOTION_DATABASE_ID");
         const pages = await notion.databases.query({database_id: databaseId});
+
+        const contentDir = "./content";
+        if (!existsSync(contentDir)) {
+            mkdirSync(contentDir);
+        }
 
         const pagePromises = pages.results.slice(0, 2).map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
@@ -55,14 +60,14 @@ async function run() {
                 content: JSON.stringify(result.pageProperties),
             })),
         }).then(async (tree) => {
-            await octokit.git.createCommit({
+            await octokit.rest.git.createCommit({
                 owner: github.context.repo.owner,
                 repo: github.context.repo.repo,
                 message: commitMessage,
                 tree: tree.data.sha,
                 parents: [github.context.sha],
             }).then(async (commit) => {
-                await octokit.git.updateRef({
+                await octokit.rest.git.updateRef({
                     owner: github.context.repo.owner,
                     repo: github.context.repo.repo,
                     ref: "heads/master",
