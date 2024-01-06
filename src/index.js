@@ -50,18 +50,15 @@ async function run() {
             const message = `Update ${fileName}`;
 
             core.info(`Committing ${fileName} to ${owner}/${repo}@${branch}`);
-            try{
 
-                const response = await octokit.rest.repos.getContent({
-                    owner,
-                    repo,
-                    path: file,
-                    ref: branch,
-                });
 
-            }catch (error) {
-                core.info(`Error: ${error}`);
-            }
+            const response = await octokit.rest.repos.getContent({
+                owner,
+                repo,
+                path: file
+            });
+
+            core.info(`Response: ${response.status}`);
 
             // Update file if it already exists
             if (response.status === 200) {
