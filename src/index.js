@@ -26,24 +26,30 @@ async function run() {
         const databaseId = core.getInput("NOTION_DATABASE_ID");
         const pages = await notion.databases.query({ database_id: databaseId });
 
-        for (const page of pages.results) {
+        const pagePromises = pages.results.map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
-
             const fileName = `notion_${page.id}.json`;
             writeFileSync(fileName, JSON.stringify(pageProperties, null, 2));
+            return { fileName, pageProperties };
+        });
 
-            // Commit and push for each file
-            const myToken = core.getInput("GITHUB_TOKEN");
-            const { owner, repo } = github.context.repo;
-            const { sha } = github.context;
+        // Wait for all pages to be processed and files to be written
+        const results = await Promise.all(pagePromises);
+
+        // Commit and push for each file
+        const myToken = core.getInput("GITHUB_TOKEN");
+        const { owner, repo } = github.context.repo;
+        const { sha } = github.context;
+        const branch = core.getInput("COMMIT_BRANCH");
+        const octokit = github.getOctokit(myToken);
+
+        const commitPromises = results.map(async ({ fileName, pageProperties }) => {
             const file = fileName;
             const content = Buffer.from(JSON.stringify(pageProperties, null, 2)).toString("base64");
             const message = `Update ${fileName}`;
-            const branch = core.getInput("COMMIT_BRANCH");
-            const octokit = github.getOctokit(myToken);
 
-            const response = await octokit.repos.createOrUpdateFileContents({
+            return octokit.repos.createOrUpdateFileContents({
                 owner,
                 repo,
                 path: file,
@@ -52,7 +58,10 @@ async function run() {
                 sha,
                 branch,
             });
-        }
+        });
+
+        // Wait for all commits to be completed
+        await Promise.all(commitPromises);
     } catch (error) {
         core.setFailed(error.message);
     }
