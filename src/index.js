@@ -70,7 +70,7 @@ async function run() {
                 await octokit.rest.git.updateRef({
                     owner: github.context.repo.owner,
                     repo: github.context.repo.repo,
-                    ref: "heads/master",
+                    ref: `heads/${core.getInput("COMMIT_BRANCH")}`,
                     sha: commit.data.sha,
                 });
             });
