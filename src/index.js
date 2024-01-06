@@ -47,6 +47,7 @@ async function run() {
             const file = fileName;
             const content = Buffer.from(JSON.stringify(pageProperties, null, 2)).toString("base64");
             const message = `Update ${fileName}`;
+
             const response = await octokit.repos.getContent({
                 owner: owner,
                 repo: repo,
@@ -64,11 +65,18 @@ async function run() {
                     content: content,
                     branch: branch,
                     sha: response.data.sha,
+                    committer: {
+                        name: "GitHub Actions",
+                        email: "github-actions[bot]@users.noreply.github.com"
+                    },
+                    author: {
+                        name: "GitHub Actions",
+                        email: "github-actions[bot]@users.noreply.github.com"
+                    },
                 });
             }
 
             // Create file if it does not exist
-
             return octokit.repos.createOrUpdateFileContents({
                 owner: owner,
                 repo: repo,
@@ -76,6 +84,14 @@ async function run() {
                 message: message,
                 content: content,
                 branch: branch,
+                committer: {
+                    name: "GitHub Actions",
+                    email: "github-actions[bot]@users.noreply.github.com"
+                },
+                author: {
+                    name: "GitHub Actions",
+                    email: "github-actions[bot]@users.noreply.github.com"
+                },
             });
         });
 
