@@ -40,7 +40,6 @@ async function run() {
         // Commit and push for each file
         const myToken = core.getInput("GITHUB_TOKEN");
         const { owner, repo } = github.context.repo;
-        const { sha } = github.context;
         const branch = core.getInput("COMMIT_BRANCH");
         const octokit = github.getOctokit(myToken);
 
@@ -48,15 +47,35 @@ async function run() {
             const file = fileName;
             const content = Buffer.from(JSON.stringify(pageProperties, null, 2)).toString("base64");
             const message = `Update ${fileName}`;
+            const response = await octokit.repos.getContent({
+                owner: owner,
+                repo: repo,
+                path: file,
+                ref: branch,
+            });
+
+            // Update file if it already exists
+            if (response.status === 200) {
+                return octokit.repos.createOrUpdateFileContents({
+                    owner: owner,
+                    repo: repo,
+                    path: file,
+                    message: message,
+                    content: content,
+                    branch: branch,
+                    sha: response.data.sha,
+                });
+            }
+
+            // Create file if it does not exist
 
             return octokit.repos.createOrUpdateFileContents({
-                owner,
-                repo,
+                owner: owner,
+                repo: repo,
                 path: file,
-                message,
-                content,
-                sha,
-                branch,
+                message: message,
+                content: content,
+                branch: branch,
             });
         });
 
