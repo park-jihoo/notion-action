@@ -4,7 +4,6 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 
 
-
 async function run() {
     try {
         const notion = new Client({
@@ -12,12 +11,13 @@ async function run() {
         });
 
         const retrievePage = async (databaseId) => {
-            return await notion.databases.query({database_id: databaseId});
-        }
+            const response = await notion.databases.query({ database_id: databaseId });
+            return response.results;
+        };
 
         const retrievePageProperties = async (pageId) => {
-            return await notion.pages.retrieve({page_id: pageId});
-        }
+            return await notion.pages.retrieve({ page_id: pageId });
+        };
 
         const retrievePageBlocks = async (pageId) => {
             const block = await notion.blocks.children.list({ block_id: pageId });
@@ -27,30 +27,29 @@ async function run() {
                 }
             }
             return block;
-        }
+        };
 
         const databaseId = core.getInput("NOTION_DATABASE_ID");
         const pages = await retrievePage(databaseId);
-        let results = [];
-        const length = pages.results.length;
-        for (const page of pages.results) {
-            const progress = pages.results.indexOf(page) + 1;
-            core.info(`Progress: ${progress}/${length}`);
+
+        const results = await Promise.all(pages.map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
-            results.push(pageProperties);
-        }
+            return pageProperties;
+        }));
+
         writeFileSync("notion.json", JSON.stringify(results, null, 2));
-        // push notion.json
+
+        // Commit and push
         const myToken = core.getInput("GITHUB_TOKEN");
-        const {owner, repo} = github.context.repo;
-        const {sha} = github.context;
+        const { owner, repo } = github.context.repo;
+        const { sha } = github.context;
         const file = "notion.json";
         const content = Buffer.from(JSON.stringify(results, null, 2)).toString("base64");
         const message = "Update notion.json";
         const branch = "master";
         const octokit = github.getOctokit(myToken);
-        // commit and push
+
         const response = await octokit.repos.createOrUpdateFileContents({
             owner,
             repo,
@@ -60,7 +59,6 @@ async function run() {
             sha,
             branch,
         });
-
     } catch (error) {
         core.setFailed(error.message);
     }
