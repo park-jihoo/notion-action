@@ -56,6 +56,8 @@ async function run() {
                 owner,
                 repo,
                 path: file
+            }).catch((error) => {
+                console.log(error)
             });
 
             core.info(`Response: ${response.status}`);
