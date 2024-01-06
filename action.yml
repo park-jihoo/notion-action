@@ -4,15 +4,15 @@ inputs:
   notion_token:
     description: "Notion token"
     required: true
-    default: ${{ secrets.NOTION_TOKEN }}
+    default: ${{ env.NOTION_TOKEN }}
   notion_database_id:
     description: "Notion database id"
     required: true
-    default: ${{ secrets.NOTION_DATABASE_ID }}
+    default: ${{ env.NOTION_DATABASE_ID }}
   github-token:
     description: "Github token"
     required: true
-    default: ${{ secrets.GITHUB_TOKEN }}
+    default: ${{ github.token }}
 
 runs:
   using: "node20"
