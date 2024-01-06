@@ -10,6 +10,10 @@ inputs:
   github_token:
     description: "Github token"
     required: true
+  commit_branch:
+    description: "Commit branch"
+    required: false
+    default: "main"
 
 runs:
   using: "node20"
