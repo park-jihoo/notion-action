@@ -1,0 +1,3600 @@
+{
+  "object": "page",
+  "id": "b1cbf461-7c2f-4723-b0a1-681977024879",
+  "created_time": "2023-12-27T17:11:00.000Z",
+  "last_edited_time": "2023-12-28T06:48:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "619787c7-5b60-4798-86c1-47cf746bfbb8"
+  },
+  "archived": false,
+  "properties": {
+    "하위 항목": {
+      "id": "KuSL",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "subclass": {
+      "id": "Q%7DG_",
+      "type": "select",
+      "select": {
+        "id": "d8208394-53ab-43f8-99ba-36dfff7d0827",
+        "name": "TEPS",
+        "color": "purple"
+      }
+    },
+    "class": {
+      "id": "%5BqIJ",
+      "type": "select",
+      "select": {
+        "id": "7feb5d46-0fe0-4b92-85f9-593648c7b0af",
+        "name": "Others",
+        "color": "default"
+      }
+    },
+    "작성일시": {
+      "id": "%60W_p",
+      "type": "created_time",
+      "created_time": "2023-12-27T17:11:00.000Z"
+    },
+    "pdf": {
+      "id": "j%2B)N",
+      "type": "files",
+      "files": []
+    },
+    "상위 항목": {
+      "id": "%7D%5D%3FT",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "TEPS VOCA",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "TEPS VOCA",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/TEPS-VOCA-b1cbf4617c2f4723b0a1681977024879",
+  "public_url": "https://spiritual-latency-306.notion.site/TEPS-VOCA-b1cbf4617c2f4723b0a1681977024879",
+  "request_id": "018a5e32-3207-410d-938e-a69053e93f39",
+  "blocks": {
+    "object": "list",
+    "results": [
+      {
+        "object": "block",
+        "id": "48a61eef-83e7-4e53-9d85-9fb0e7e918c9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b1cbf461-7c2f-4723-b0a1-681977024879"
+        },
+        "created_time": "2023-12-27T17:11:00.000Z",
+        "last_edited_time": "2023-12-27T17:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Day 1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Day 1",
+              "href": null
+            }
+          ],
+          "is_toggleable": true,
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c",
+              "parent": {
+                "type": "block_id",
+                "block_id": "48a61eef-83e7-4e53-9d85-9fb0e7e918c9"
+              },
+              "created_time": "2023-12-27T17:11:00.000Z",
+              "last_edited_time": "2023-12-28T06:23:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": true,
+              "archived": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": {
+                "object": "list",
+                "results": [
+                  {
+                    "object": "block",
+                    "id": "e61127b3-c38e-4f2f-bffb-020749921013",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:11:00.000Z",
+                    "last_edited_time": "2023-12-27T17:12:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "commute",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "commute",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "통근하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "통근하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "pick up",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "pick up",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "데리러 가다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "데리러 가다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "9647e482-ff1c-4742-9433-9fa6ff63f8a8",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:11:00.000Z",
+                    "last_edited_time": "2023-12-27T17:12:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "drop off",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "drop off",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "내려 주다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "내려 주다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "route",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "route",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "길, 노선",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "길, 노선",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "c97f53d8-18ab-4d0d-b0ab-b3104a7bd9b5",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:11:00.000Z",
+                    "last_edited_time": "2023-12-27T17:12:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "jam",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "jam",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "막다, 메우다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "막다, 메우다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "detour",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "detour",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "우회",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "우회",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "8b1f3324-3c9b-40f9-8977-27e5deb7d452",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:12:00.000Z",
+                    "last_edited_time": "2023-12-27T17:13:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "pull over",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "pull over",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "길가에 대다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "길가에 대다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "fine",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "fine",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "벌금, 과태료",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "벌금, 과태료",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "ea18333b-5bbd-4250-8150-bc5eb3ee85cf",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:12:00.000Z",
+                    "last_edited_time": "2023-12-27T17:13:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "notice",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "notice",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "알아차리다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "알아차리다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "meander",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "meander",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "구불구불하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "구불구불하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "fd105802-1b9d-4ef7-85e1-a4d3e68edd92",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:12:00.000Z",
+                    "last_edited_time": "2023-12-27T17:13:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "careen",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "careen",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "위태롭게 달리다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "위태롭게 달리다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "navigate",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "navigate",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "항해하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "항해하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "9274350e-7bc5-4ce4-a613-6a43adca6ac1",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:12:00.000Z",
+                    "last_edited_time": "2023-12-27T17:13:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "diverge",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "diverge",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "갈라지다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "갈라지다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "hail",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "hail",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "불러 세우다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "불러 세우다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "8bb1b32f-b45d-4711-b44f-247b10ff71fe",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:12:00.000Z",
+                    "last_edited_time": "2023-12-28T06:23:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "jump the gun",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "jump the gun",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "출발하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "출발하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "transfer",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "transfer",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "갈아타다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "갈아타다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "0b5e9e88-e3f0-41fa-a6f4-2113d792a16c",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-27T17:12:00.000Z",
+                    "last_edited_time": "2023-12-28T06:23:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "direction",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "direction",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "방향",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "방향",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "charter",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "charter",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "전세 내다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "전세 내다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "0a3146e4-f1df-438d-afa1-b78edeba0463",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:37:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "convenient",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "convenient",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "편리한",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "편리한",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "designate",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "designate",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "지정하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "지정하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "5bed346e-44e4-460a-96bb-c818efe3afde",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:37:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "curb",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "curb",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "도로 경계석",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "도로 경계석",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "fare",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "fare",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "요금",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "요금",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "c034ceb0-1fb7-4472-99d3-835121749cda",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:38:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "bypass",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "bypass",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "피하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "피하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "commission",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "commission",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "수수료",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "수수료",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "a22c954b-9362-40d1-94cd-f182620eff0f",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:38:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "moor",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "moor",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "정박시키다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "정박시키다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "run",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "run",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "운행하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "운행하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "94cf6209-d024-4185-abac-f39534ac6e63",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:43:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "cushion",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "cushion",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "충격을 완화하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "충격을 완화하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "pandemonium",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "pandemonium",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "대혼란",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "대혼란",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "39ea1fd7-a004-46f2-8a21-e62c5ea92459",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:43:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "convoluted",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "convoluted",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "복잡한",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "복잡한",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "veer",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "veer",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "방향을 바꾸다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "방향을 바꾸다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "5937219a-f920-49e5-92bd-594ec25250c6",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:44:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "cramped",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "cramped",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "비좁은",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "비좁은",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "opposite",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "opposite",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "반대의",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "반대의",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "bccd550a-48b5-43de-b011-0bb331ea967e",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:44:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "interrupt",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "interrupt",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "가로막다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "가로막다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "make way",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "make way",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "비켜주다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "비켜주다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "81c6e95a-228e-4772-b90a-af9c09ba89d0",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:44:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "borrow",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "borrow",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "빌리다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "빌리다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "locate",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "locate",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "위치시키다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "위치시키다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "7226c4c5-2468-4ca2-ae36-13d8d630584c",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:44:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "recommend",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "recommend",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "추천하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "추천하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "destination",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "destination",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "목적지",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "목적지",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "9c39e391-fa08-4896-843d-2ed04fb1fe42",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:44:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "disregard",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "disregard",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "무시하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "무시하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "bound",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "bound",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "~행의",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "~행의",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "8a598d01-ed55-4f43-baa9-043ee8486aa2",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "c6bdfe35-fe28-4427-a78c-d123244ccc5c"
+                    },
+                    "created_time": "2023-12-28T06:23:00.000Z",
+                    "last_edited_time": "2023-12-28T06:45:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "rapidly",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "rapidly",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "빠르게",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "빠르게",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "transport",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "transport",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "운송하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "운송하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                "next_cursor": null,
+                "has_more": false,
+                "type": "block",
+                "block": {},
+                "request_id": "d66ebd7f-1cb9-437d-ac64-ad445208ea85"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "aab57268-4c21-42eb-bda9-fabcfae96e6c"
+        }
+      },
+      {
+        "object": "block",
+        "id": "75f36da6-7b58-4655-a384-a1164791a1d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b1cbf461-7c2f-4723-b0a1-681977024879"
+        },
+        "created_time": "2023-12-28T06:45:00.000Z",
+        "last_edited_time": "2023-12-28T06:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": true,
+        "archived": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Day 2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Day 2",
+              "href": null
+            }
+          ],
+          "is_toggleable": true,
+          "color": "default"
+        },
+        "children": {
+          "object": "list",
+          "results": [
+            {
+              "object": "block",
+              "id": "6c84f574-9da4-472b-94cf-f03c050e849b",
+              "parent": {
+                "type": "block_id",
+                "block_id": "75f36da6-7b58-4655-a384-a1164791a1d5"
+              },
+              "created_time": "2023-12-28T06:46:00.000Z",
+              "last_edited_time": "2023-12-28T06:46:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+              },
+              "has_children": true,
+              "archived": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": {
+                "object": "list",
+                "results": [
+                  {
+                    "object": "block",
+                    "id": "3682d164-3b18-455d-ab65-12f9c745353d",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "frugal",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "frugal",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "절약하는",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "절약하는",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "cut down on",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "cut down on",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "줄이다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "줄이다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "7a668485-6a56-47e0-8b1b-bfbfcd7694a1",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "mortgage",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "mortgage",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "담보 대출",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "담보 대출",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "loan",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "loan",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "대출",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "대출",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "e79f2d34-ed10-41d6-8b88-5a69999e16ae",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:47:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "in the red",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "in the red",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "적자인",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "적자인",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "statement",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "statement",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "입출금 내역서",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "입출금 내역서",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "0fa4dbd3-9340-484a-a2fe-cfd183729130",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:47:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "recession",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "recession",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "불경기",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "불경기",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "stimulate",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "stimulate",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "자극하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "자극하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "0111c02d-f758-412d-81a2-3e5fc065a0c3",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:47:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "galvanize",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "galvanize",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "활기를 불어넣다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "활기를 불어넣다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "ensure",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "ensure",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "보장하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "보장하다",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "b2eb87c8-eae0-43c6-bf56-2d1b2f04c1ba",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:47:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "compensate",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "compensate",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "보상하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "보상하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "account",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "account",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "계좌",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "계좌",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "6d5694d0-386b-4bd6-b75f-02c84390113c",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:48:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "plummet",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "plummet",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "폭락하다",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "폭락하다",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "remuneration",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "remuneration",
+                            "href": null
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "보수",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "보수",
+                            "href": null
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "ced22261-8291-4c8f-a3b8-3bcb33f93923",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "95f3c1e5-95e2-44c8-a288-e9fd5ffcff65",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "46637eb7-83f2-4a57-8408-77d55a8652f4",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "f74fd7eb-3e0d-40eb-bb93-f583e370c584",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "6cc8aeda-e16e-4ed5-89ae-57c1cda767ae",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "a7a3a404-829b-4b0b-a61e-9bb1e1cc5615",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "478fc720-8d0d-41aa-bf45-5b685ca65b65",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "0cd0f70c-9d48-436a-aa92-392101607e12",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "b6229e04-2587-43ca-8399-1b3a74a87a36",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "9c0778d4-6766-4773-8b07-7fca9a349c26",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "09f3d2d1-2060-465e-9b8e-cc5b43aae148",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "4d297faf-dec9-41a9-8025-2e8e08d1a1ae",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "539ad104-badf-4d28-a20a-bae16cd8503e",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "c9913767-bad8-4a6c-80ad-cb4b670a21f9",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "caacf86f-b979-4495-b396-90635fd66cd3",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "863c4fa9-07ad-4f99-9939-b496f19032ae",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  },
+                  {
+                    "object": "block",
+                    "id": "42f3f511-76b7-49b3-aa26-db0b87fcee6d",
+                    "parent": {
+                      "type": "block_id",
+                      "block_id": "6c84f574-9da4-472b-94cf-f03c050e849b"
+                    },
+                    "created_time": "2023-12-28T06:46:00.000Z",
+                    "last_edited_time": "2023-12-28T06:46:00.000Z",
+                    "created_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "last_edited_by": {
+                      "object": "user",
+                      "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+                    },
+                    "has_children": false,
+                    "archived": false,
+                    "type": "table_row",
+                    "table_row": {
+                      "cells": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  }
+                ],
+                "next_cursor": null,
+                "has_more": false,
+                "type": "block",
+                "block": {},
+                "request_id": "ebf28d31-c158-4b4e-8b5a-f03874c24279"
+              }
+            }
+          ],
+          "next_cursor": null,
+          "has_more": false,
+          "type": "block",
+          "block": {},
+          "request_id": "f7a3453e-e77b-41e0-920d-d11cac09af37"
+        }
+      }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "block",
+    "block": {},
+    "request_id": "44a5dd15-c04d-4caf-913c-66255bbba09e"
+  }
+}
