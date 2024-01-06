@@ -1,0 +1,22 @@
+name: "Notion to JSON"
+description: "Convert Notion database to JSON"
+inputs:
+  notion_token:
+    description: "Notion token"
+    required: true
+    default: ${{ secrets.NOTION_TOKEN }}
+  notion_database_id:
+    description: "Notion database id"
+    required: true
+    default: ${{ secrets.NOTION_DATABASE_ID }}
+  github-token:
+    description: "Github token"
+    required: true
+    default: ${{ secrets.GITHUB_TOKEN }}
+
+runs:
+  using: "node20"
+  main: "src/index.js"
+branding:
+    color: "blue"
+    icon: "database"
