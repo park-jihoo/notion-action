@@ -31,10 +31,10 @@ async function run() {
             mkdirSync(contentDir);
         }
 
-        const pagePromises = pages.results.slice(0, 2).map(async (page) => {
+        const pagePromises = pages.results.map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
-            const fileName = `./content/${page.id}.json`;
+            const fileName = `${page.id}.json`;
             writeFileSync(fileName, JSON.stringify(pageProperties, null, 2));
             core.info(`Wrote ${fileName.split("/")[1]}`);
             return {fileName, pageProperties};
@@ -54,7 +54,7 @@ async function run() {
             repo: github.context.repo.repo,
             base_tree: github.context.sha,
             tree: results.map((result) => ({
-                path: encodeURIComponent(result.fileName),
+                path: "content/"+encodeURIComponent(result.fileName),
                 mode: "100644",
                 type: "blob",
                 content: JSON.stringify(result.pageProperties),
