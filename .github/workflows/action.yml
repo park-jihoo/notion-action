@@ -1,0 +1,20 @@
+name: Action Example
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+jobs:
+  notion:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Notion to JSON
+        uses: park-jihoo/notion-action@notion
+            
