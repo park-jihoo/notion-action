@@ -89,6 +89,7 @@ async function run() {
         // Wait for all commits to be completed
         await Promise.all(commitPromises);
     } catch (error) {
+        core.error(error)
         core.setFailed(error.message);
     }
 }
