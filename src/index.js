@@ -45,57 +45,40 @@ async function run() {
         const octokit = github.getOctokit(myToken);
 
         const commitPromises = results.map(async ({ fileName, pageProperties }) => {
-            const file = "./" + fileName;
+            const file = fileName;
             const content = Buffer.from(JSON.stringify(pageProperties, null, 2)).toString("base64");
             const message = `Update ${fileName}`;
 
             core.info(`Committing ${fileName} to ${owner}/${repo}@${branch}`);
 
-            const response = await octokit.repos.getContent({
-                owner: owner,
-                repo: repo,
-                path: file,
+            const response = await octokit.request(`GET /repos/${owner}/${repo}/contents/${file}`, {
                 ref: branch,
             });
 
             // Update file if it already exists
             if (response.status === 200) {
-                return octokit.repos.createOrUpdateFileContents({
-                    owner: owner,
-                    repo: repo,
+                await octokit.request(`PUT /repos/${owner}/${repo}/contents/${file}`, {
+                    owner,
+                    repo,
                     path: file,
-                    message: message,
-                    content: content,
-                    branch: branch,
+                    message,
+                    content,
+                    branch,
                     sha: response.data.sha,
-                    committer: {
-                        name: "GitHub Actions",
-                        email: "github-actions[bot]@users.noreply.github.com"
-                    },
-                    author: {
-                        name: "GitHub Actions",
-                        email: "github-actions[bot]@users.noreply.github.com"
-                    },
                 });
             }
 
-            // Create file if it does not exist
-            return octokit.repos.createOrUpdateFileContents({
-                owner: owner,
-                repo: repo,
-                path: file,
-                message: message,
-                content: content,
-                branch: branch,
-                committer: {
-                    name: "GitHub Actions",
-                    email: "github-actions[bot]@users.noreply.github.com"
-                },
-                author: {
-                    name: "GitHub Actions",
-                    email: "github-actions[bot]@users.noreply.github.com"
-                },
-            });
+            // Create file if it doesn't exist
+            else if (response.status === 404) {
+                await octokit.request(`PUT /repos/${owner}/${repo}/contents/${file}`, {
+                    owner,
+                    repo,
+                    path: file,
+                    message,
+                    content,
+                    branch,
+                });
+            }
         });
 
         // Wait for all commits to be completed
