@@ -55,6 +55,8 @@ async function run() {
                 ref: branch,
             });
 
+            core.info(`Response: ${response.status}`);
+
             // Update file if it already exists
             if (response.status === 200) {
                 await octokit.request(`PUT /repos/${owner}/${repo}/contents/${file}`, {
