@@ -72,9 +72,7 @@ async function run() {
             })),
         }).then(async (tree) => {
             // if empty tree, exit
-            if (tree.data.tree.length === 0) {
-                return;
-            }
+            core.info(`Tree: ${JSON.stringify(tree)}`);
             await octokit.rest.git.createCommit({
                 owner: github.context.repo.owner,
                 repo: github.context.repo.repo,
