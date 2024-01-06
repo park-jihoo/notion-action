@@ -1,19 +1,13 @@
-const {writeFileSync} = require("fs");
-const {Client} = require("@notionhq/client");
+const { writeFileSync } = require("fs");
+const { Client } = require("@notionhq/client");
 const core = require("@actions/core");
 const github = require("@actions/github");
-
 
 async function run() {
     try {
         const notion = new Client({
             auth: core.getInput("NOTION_TOKEN"),
         });
-
-        const retrievePage = async (databaseId) => {
-            const response = await notion.databases.query({ database_id: databaseId });
-            return response.results;
-        };
 
         const retrievePageProperties = async (pageId) => {
             return await notion.pages.retrieve({ page_id: pageId });
@@ -30,35 +24,35 @@ async function run() {
         };
 
         const databaseId = core.getInput("NOTION_DATABASE_ID");
-        const pages = await retrievePage(databaseId);
+        const pages = await notion.databases.query({ database_id: databaseId });
 
-        const results = await Promise.all(pages.map(async (page) => {
+        for (const page of pages.results) {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
-            return pageProperties;
-        }));
 
-        writeFileSync("notion.json", JSON.stringify(results, null, 2));
+            const fileName = `notion_${page.id}.json`;
+            writeFileSync(fileName, JSON.stringify(pageProperties, null, 2));
 
-        // Commit and push
-        const myToken = core.getInput("GITHUB_TOKEN");
-        const { owner, repo } = github.context.repo;
-        const { sha } = github.context;
-        const file = "notion.json";
-        const content = Buffer.from(JSON.stringify(results, null, 2)).toString("base64");
-        const message = "Update notion.json";
-        const branch = "main";
-        const octokit = github.getOctokit(myToken);
+            // Commit and push for each file
+            const myToken = core.getInput("GITHUB_TOKEN");
+            const { owner, repo } = github.context.repo;
+            const { sha } = github.context;
+            const file = fileName;
+            const content = Buffer.from(JSON.stringify(pageProperties, null, 2)).toString("base64");
+            const message = `Update ${fileName}`;
+            const branch = core.getInput("COMMIT_BRANCH");
+            const octokit = github.getOctokit(myToken);
 
-        const response = await octokit.repos.createOrUpdateFileContents({
-            owner,
-            repo,
-            path: file,
-            message,
-            content,
-            sha,
-            branch,
-        });
+            const response = await octokit.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path: file,
+                message,
+                content,
+                sha,
+                branch,
+            });
+        }
     } catch (error) {
         core.setFailed(error.message);
     }
