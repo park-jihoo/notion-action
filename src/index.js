@@ -26,10 +26,10 @@ async function run() {
         const databaseId = core.getInput("NOTION_DATABASE_ID");
         const pages = await notion.databases.query({ database_id: databaseId });
 
-        const pagePromises = pages.results.slice(0, 1).map(async (page) => {
+        const pagePromises = pages.results.map(async (page) => {
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
-            const fileName = `notion_${page.id}.json`;
+            const fileName = `${page.id}.json`;
             writeFileSync(fileName, JSON.stringify(pageProperties, null, 2));
             core.info(`Wrote ${fileName}`);
             return { fileName, pageProperties };
