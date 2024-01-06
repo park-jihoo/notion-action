@@ -50,15 +50,18 @@ async function run() {
             const message = `Update ${fileName}`;
 
             core.info(`Committing ${fileName} to ${owner}/${repo}@${branch}`);
+            try{
 
-            const response = await octokit.rest.repos.getContent({
-                owner,
-                repo,
-                path: file,
-                ref: branch,
-            });
+                const response = await octokit.rest.repos.getContent({
+                    owner,
+                    repo,
+                    path: file,
+                    ref: branch,
+                });
 
-            core.info(`Response: ${response.status}`);
+            }catch (error) {
+                core.info(`Error: ${error}`);
+            }
 
             // Update file if it already exists
             if (response.status === 200) {
@@ -89,8 +92,7 @@ async function run() {
         // Wait for all commits to be completed
         await Promise.all(commitPromises);
     } catch (error) {
-        core.error(error)
-        core.setFailed(error.message);
+        core.setFailed(error);
     }
 }
 
