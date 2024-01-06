@@ -44,7 +44,7 @@ async function run() {
 
         const commitMessage = "Update Notion database";
 
-        await octokit.git.createTree({
+        await octokit.rest.git.createTree({
             owner: github.context.repo.owner,
             repo: github.context.repo.repo,
             base_tree: github.context.sha,
