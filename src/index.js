@@ -59,6 +59,11 @@ async function run() {
 
         const commitMessage = "Update Notion database";
 
+        if(results.filter((result) => result.fileName !== "").length === 0) {
+            core.info("No pages were updated, skipping commit");
+            return;
+        }
+
         await octokit.rest.git.createTree({
             owner: github.context.repo.owner,
             repo: github.context.repo.repo,
@@ -71,8 +76,6 @@ async function run() {
                 content: JSON.stringify(result.pageProperties),
             })),
         }).then(async (tree) => {
-            // if empty tree, exit
-            core.info(`Tree: ${JSON.stringify(tree)}`);
             await octokit.rest.git.createCommit({
                 owner: github.context.repo.owner,
                 repo: github.context.repo.repo,
