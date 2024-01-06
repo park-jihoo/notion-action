@@ -51,15 +51,16 @@ async function run() {
 
             core.info(`Committing ${fileName} to ${owner}/${repo}@${branch}`);
 
-            const response = await octokit.request(`GET /repos/${owner}/${repo}/contents/${file}`, {
+            const response = await octokit.rest.repos.getContent({
+                owner,
+                repo,
+                path: file,
                 ref: branch,
             });
 
-            core.info(`Response: ${response.status}`);
-
             // Update file if it already exists
             if (response.status === 200) {
-                await octokit.request(`PUT /repos/${owner}/${repo}/contents/${file}`, {
+                await octokit.rest.repos.createOrUpdateFileContents({
                     owner,
                     repo,
                     path: file,
@@ -72,7 +73,7 @@ async function run() {
 
             // Create file if it doesn't exist
             else if (response.status === 404) {
-                await octokit.request(`PUT /repos/${owner}/${repo}/contents/${file}`, {
+                await octokit.rest.repos.createOrUpdateFileContents({
                     owner,
                     repo,
                     path: file,
