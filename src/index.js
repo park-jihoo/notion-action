@@ -54,7 +54,7 @@ async function run() {
             repo: github.context.repo.repo,
             base_tree: github.context.sha,
             tree: results.map((result) => ({
-                path: result.fileName,
+                path: encodeURIComponent(result.fileName),
                 mode: "100644",
                 type: "blob",
                 content: JSON.stringify(result.pageProperties),
