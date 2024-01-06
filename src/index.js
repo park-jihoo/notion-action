@@ -45,11 +45,11 @@ async function run() {
         const octokit = github.getOctokit(myToken);
 
         const commitPromises = results.map(async ({ fileName, pageProperties }) => {
-            const file = fileName;
+            const file = "./" + fileName;
             const content = Buffer.from(JSON.stringify(pageProperties, null, 2)).toString("base64");
             const message = `Update ${fileName}`;
 
-            core.info(`Committing ${file} to ${owner}/${repo}@${branch}`);
+            core.info(`Committing ${fileName} to ${owner}/${repo}@${branch}`);
 
             const response = await octokit.repos.getContent({
                 owner: owner,
