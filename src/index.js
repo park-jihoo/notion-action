@@ -32,8 +32,10 @@ async function run() {
         const databaseId = core.getInput("NOTION_DATABASE_ID");
         const pages = await retrievePage(databaseId);
         let results = [];
+        const length = pages.results.length;
         for (const page of pages.results) {
-            console.log("page", page.title);
+            const progress = pages.results.indexOf(page) + 1;
+            core.info(`Progress: ${progress}/${length}`);
             const pageProperties = await retrievePageProperties(page.id);
             pageProperties.blocks = await retrievePageBlocks(page.id);
             results.push(pageProperties);
