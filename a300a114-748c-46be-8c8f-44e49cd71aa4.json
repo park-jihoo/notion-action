@@ -1,0 +1,186 @@
+{
+  "object": "page",
+  "id": "a300a114-748c-46be-8c8f-44e49cd71aa4",
+  "created_time": "2023-10-06T00:06:00.000Z",
+  "last_edited_time": "2023-10-06T00:12:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "619787c7-5b60-4798-86c1-47cf746bfbb8"
+  },
+  "archived": false,
+  "properties": {
+    "하위 항목": {
+      "id": "KuSL",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "subclass": {
+      "id": "Q%7DG_",
+      "type": "select",
+      "select": {
+        "id": "89bc53b9-b0e2-45d5-a1f5-a0160f51dfd9",
+        "name": "Machine Learning Theory",
+        "color": "orange"
+      }
+    },
+    "class": {
+      "id": "%5BqIJ",
+      "type": "select",
+      "select": {
+        "id": "b3c6dde5-87ba-4b9d-9c55-a95b883e30d5",
+        "name": "RL",
+        "color": "red"
+      }
+    },
+    "작성일시": {
+      "id": "%60W_p",
+      "type": "created_time",
+      "created_time": "2023-10-06T00:06:00.000Z"
+    },
+    "pdf": {
+      "id": "j%2B)N",
+      "type": "files",
+      "files": []
+    },
+    "상위 항목": {
+      "id": "%7D%5D%3FT",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "MLT Chapter 6, 7, 8",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "MLT Chapter 6, 7, 8",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/MLT-Chapter-6-7-8-a300a114748c46be8c8f44e49cd71aa4",
+  "public_url": "https://spiritual-latency-306.notion.site/MLT-Chapter-6-7-8-a300a114748c46be8c8f44e49cd71aa4",
+  "request_id": "30950a07-9215-41d3-8689-6c9192abe38d",
+  "blocks": {
+    "object": "list",
+    "results": [
+      {
+        "object": "block",
+        "id": "225dcd36-9c6f-4ea5-82b6-76c3394662b7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a300a114-748c-46be-8c8f-44e49cd71aa4"
+        },
+        "created_time": "2023-10-06T00:06:00.000Z",
+        "last_edited_time": "2023-10-06T00:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "6. Data-dependent Generalization Bounds for Deep Nets",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "6. Data-dependent Generalization Bounds for Deep Nets",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "21e58d56-2baa-44ae-b645-45198006e821",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a300a114-748c-46be-8c8f-44e49cd71aa4"
+        },
+        "created_time": "2023-10-06T00:06:00.000Z",
+        "last_edited_time": "2023-10-06T00:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "22486098-d4a4-4dea-aeb1-06817ec8b304"
+        },
+        "has_children": false,
+        "archived": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Uniform convergence with a data-dependent hypothesis class",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Uniform convergence with a data-dependent hypothesis class",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "block",
+    "block": {},
+    "request_id": "9b68206c-be05-4f17-ba70-d723808e509f"
+  }
+}
