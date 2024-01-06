@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 20
       - name: Notion to JSON
-        uses: park-jihoo/notion-action@latest
+        uses: park-jihoo/notion-action@0.0.1
         with:
           notion_token: ${{ secrets.NOTION_TOKEN }}
           notion_database_id: ${{ secrets.NOTION_DATABASE_ID }}
